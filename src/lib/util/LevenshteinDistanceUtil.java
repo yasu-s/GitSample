@@ -15,9 +15,9 @@ public abstract class LevenshteinDistanceUtil {
 
 	/**
 	 * 編集距離計算処理
-	 * @param source
-	 * @param target
-	 * @return
+	 * @param source 比較元
+	 * @param target 比較先
+	 * @return 編集距離
 	 */
 	public static int calc(String source, String target) {
 
